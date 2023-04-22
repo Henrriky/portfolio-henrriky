@@ -29,6 +29,7 @@ function Contact() {
                             <i className="bx bx-mail-send contact__card-icon"></i>
                             <h3 className="contact__card-title">Email</h3>
                             <span className="contact__card-data">henrriky.123@gmail.com</span>
+                            { /* eslint-disable */}
                             <a href="mailto:henrriky.123@gmail.com" className="contact__button">
                                 Mande uma mensagem {" "}
                                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
@@ -73,7 +74,7 @@ function Contact() {
                         <button className="button button--flex" type="submit">
                             Enviar
                             <svg
-                                class="button__icon"
+                                className="button__icon"
                                 xmlns="http://www.w3.org/2000/svg"
                                 width="24"
                                 height="24"
