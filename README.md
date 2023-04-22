@@ -1,0 +1,6 @@
+- [Boxicons](https://boxicons.com/usage);
+- [Unicons](https://iconscout.com/unicons);
+- [swipper.js](https://swiperjs.com/) --> Carousel;
+    - `npm i swipper`
+- [emailjs](https://www.emailjs.com/) --> Enviar email diretamente do código
+    - `npm i @emailjs-com --save`
