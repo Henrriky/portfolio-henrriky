@@ -36,11 +36,11 @@ function Qualification() {
           <div className={toggleQualification === 1 ? "qualification__content qualification__content-active" : "qualification__content"}>
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Web Design</h3>
-                <span className="qualification__subtitle">Spain - Institute</span>
+                <h3 className="qualification__title">Análise Desenvolvimento de Sistemas</h3>
+                <span className="qualification__subtitle">Instituto Federal de São Paulo</span>
                 <div className="qualification__calender">
                   <i className="uil uil-calendar-alt"></i>
-                  2021 - Present
+                  2023 - 2025
                 </div>
               </div>
               <div>
@@ -56,42 +56,11 @@ function Qualification() {
                 <span className="qualification__line"></span>
               </div>
               <div>
-                <h3 className="qualification__title">Art Director</h3>
-                <span className="qualification__subtitle">Spain - Institute</span>
+                <h3 className="qualification__title">Ensino Médio com Habilitação Técnica Desenvolvimento de Sistemas</h3>
+                <span className="qualification__subtitle">Etec de Vila Formosa</span>
                 <div className="qualification__calender">
                   <i className="uil uil-calendar-alt"></i>
-                  2020 - 2021
-                </div>
-              </div>
-            </div>
-
-            <div className="qualification__data">
-              <div>
-                <h3 className="qualification__title">Web Development</h3>
-                <span className="qualification__subtitle">Spain - Institute</span>
-                <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i>
-                  2015 - 2019
-                </div>
-              </div>
-              <div>
-                <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
-              </div>
-            </div>
-
-            <div className="qualification__data">
-              <div></div>
-              <div>
-                <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
-              </div>
-              <div>
-                <h3 className="qualification__title">UX Expert</h3>
-                <span className="qualification__subtitle">Spain - Institute</span>
-                <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i>
-                  2021 - 2022
+                  2020 - 2022
                 </div>
               </div>
             </div>
@@ -100,8 +69,8 @@ function Qualification() {
           <div className={toggleQualification === 2 ? "qualification__content qualification__content-active" : "qualification__content"}>
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Product Designer</h3>
-                <span className="qualification__subtitle">Microsoft - Spain</span>
+                <h3 className="qualification__title">Em desenvolvimento</h3>
+                <span className="qualification__subtitle">Em desenvolvimento</span>
                 <div className="qualification__calender">
                   <i className="uil uil-calendar-alt"></i>
                   Present
@@ -120,22 +89,22 @@ function Qualification() {
                 <span className="qualification__line"></span>
               </div>
               <div>
-                <h3 className="qualification__title">UX Designer</h3>
-                <span className="qualification__subtitle">Apple Inc - Brazil</span>
+                <h3 className="qualification__title">Em desenvolvimento</h3>
+                <span className="qualification__subtitle">Em desenvolvimento</span>
                 <div className="qualification__calender">
                   <i className="uil uil-calendar-alt"></i>
-                  2020 - 2021
+                  Present
                 </div>
               </div>
             </div>
 
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Web Designer</h3>
-                <span className="qualification__subtitle">Figma - Spain</span>
+                <h3 className="qualification__title">Em desenvolvimento</h3>
+                <span className="qualification__subtitle">Em desenvolvimento</span>
                 <div className="qualification__calender">
                   <i className="uil uil-calendar-alt"></i>
-                  2015 - 2019
+                  Present
                 </div>
               </div>
               <div>
