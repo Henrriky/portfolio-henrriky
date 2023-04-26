@@ -147,6 +147,11 @@ img {
   padding: 1.25rem 2rem;
   border-radius: 1rem;
   font-weight: var(--font-medium);
+  transition: .5s;
+}
+
+.button__hover_specific:hover {
+  filter: invert(1.8);
 }
 
 .button:hover {

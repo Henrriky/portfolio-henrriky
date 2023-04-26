@@ -59,7 +59,7 @@ function Data() {
             Opa, tudo bem? Sou um programador Full-Stack e Mobile dedidado que está sempre em 
             busca de criar soluções eficientes frente aos desafios do mercado de trabalho.
         </p>
-        <a href="#contact" className="button button--flex">
+        <a href="#contact" className="button button--flex button__hover_specific">
             Diga Olá
             <svg
                   className="button__icon"

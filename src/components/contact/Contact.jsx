@@ -71,7 +71,7 @@ function Contact() {
                             <textarea name="message" cols="30" rows="10" className="contact__form-input" placeholder="Insira sua mensagem" />
                         </div>
 
-                        <button className="button button--flex" type="submit">
+                        <button className="button button--flex button__hover_specific" type="submit">
                             Enviar
                             <svg
                                 className="button__icon"

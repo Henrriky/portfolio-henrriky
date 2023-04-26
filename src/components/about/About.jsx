@@ -19,7 +19,7 @@ function About() {
                     criar páginas web responsivas e que vão impulsionar o marketing da sua empresa. Tenho conhecimento também em back-end, 
                     desenvolvendo REST API's multiplataformas conectadas a um banco de dados, tornando o acesso aos dados mais simplificado.
                 </p>
-                <a download="" href={CV} className="button button--flex">
+                <a download="" href={CV} className="button button--flex button__hover_specific">
                     Baixar currículo
                     <svg
                     className="button__icon"
