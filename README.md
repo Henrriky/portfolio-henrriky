@@ -1,6 +1,29 @@
+<h4 align="center"> 
+	🚀 Portfólio 🚀
+</h4>
+
+<p align="center" style="display: flex; align-items: flex-start; justify-content: center">
+  <img alt="versão 1 do projeto" title="#portfolio" src=".github/capa.PNG">
+</p>  
+
+# ✅ Objetivo
+
+- Portfolio oficial do meu perfil desenvolvido com React, com o objetivo de resumir minhas qualificações profissionais, projetos e conhecimentos em um único lugar. Contém responsividade e aplicação de boas práticas de programação.
+
+
+# 🎮 Deploy
+
+- Para ver o site, [clique aqui](https://portfolio-react-sass-tawny.vercel.app)
+
+# 🎮 Tecnologias e Ferramentas
+
+- HTML, CSS, Javascript
+- React
+- NPM
+- Git & Github
+- Vercel (Deploy)
 - [Boxicons](https://boxicons.com/usage);
 - [Unicons](https://iconscout.com/unicons);
-- [swipper.js](https://swiperjs.com/) --> Carousel;
-    - `npm i swipper`
-- [emailjs](https://www.emailjs.com/) --> Enviar email diretamente do código
-    - `npm i @emailjs-com --save`
+- [swipper.js](https://swiperjs.com/)
+- [emailjs](https://www.emailjs.com/)
+
