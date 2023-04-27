@@ -10,7 +10,6 @@ import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
 import ScrollUp from './components/scrollup/ScrollUp';
 import Projects from './components/projects/Projects';
-// import Testimonials from './components/testimonials/Testimonials';
 
 function App() {
   return (
@@ -23,7 +22,6 @@ function App() {
         <Services/>
         <Qualification/>
         <Projects/>
-        {/* <Testimonials/> */}
         <Contact/>
       </main>
       <Footer/>

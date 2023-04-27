@@ -1,19 +1,34 @@
 .portfolio__container {
-    grid-template-columns: repeat(3, 300px);
-    column-gap: 10px;
-    row-gap: 40px;
+    /* grid-template-columns: repeat(3, 150px); */
+    /* column-gap: 10px; */
+    /* row-gap: 40px; */
     justify-content: center;
+    display: flex;
+    width: 650px;
 }
 
 .portfolio__content {
-    padding: 1rem;
-    border: 1px solid rgba(0,0,0,0.2);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.portfolio__data__card {
+    padding-bottom: 1rem;
     background-color: var(--container-color);
     border-radius: 1rem;
+    height: 300px;
+}
+
+.portfolio__data__card__text {
+    padding-left: 1rem;
 }
 
 .portfolio__img {
     width: 100%;
+    height: 70%;
+    object-fit: cover;
     border-radius: .5rem;
     margin-bottom: var(--mb-0-25);
 }
@@ -42,17 +57,32 @@
     transform: translateX(.25rem);
 }
 
-@media screen and (max-width: 992px) {
-    .portfolio__container {
-        grid-template-columns: repeat(3, 250px);
-    }
+/* Swiper Class */
+
+.swiper-wrapper {
+    padding-bottom: 4rem;
 }
+
+.swiper-pagination-bullet {
+    background-color: var(--text-color) !important;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: var(--title-color) !important;
+}
+
+/* @media screen and (max-width: 992px) {
+    .portfolio__container {
+        width: 500px;
+    }
+} */
 
 @media screen and (max-width: 768px) {
     .portfolio__container {
-        grid-template-columns: repeat(2, 1fr);
+        /* grid-template-columns: repeat(2, 1fr);
         row-gap: 20px;
-        column-gap: 15px;
+        column-gap: 15px; */
+        width: 440px;
     }
 
     .portfolio__content {
@@ -62,7 +92,7 @@
 
 @media screen and (max-width: 576px) {
     .portfolio__container {
-        grid-template-columns: repeat(2, 1fr);
+        width: 340px;
     }
 
     .portfolio__title {
@@ -74,8 +104,8 @@
     }
 }
 
-@media screen and (max-width: 476px) {
+@media screen and (max-width: 350px) {
     .portfolio__container {
-        grid-template-columns: auto;
+        width: 100%;
     }
 }
