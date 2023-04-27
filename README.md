@@ -3,7 +3,7 @@
 </h4>
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center">
-  <img alt="versão 1 do projeto" title="#portfolio" src=".github/capa.PNG">
+  <img alt="versão 1 do projeto" title="#portfolio" src=".github/capa.PNG" style="border-radius: 10px">
 </p>  
 
 # ✅ Objetivo
