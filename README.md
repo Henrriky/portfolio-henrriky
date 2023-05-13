@@ -13,7 +13,7 @@
 
 # 🎮 Deploy
 
-- Para ver o site, [clique aqui](https://portfolio-react-sass-tawny.vercel.app)
+- Para ver o site, [clique aqui](https://portfolio-henrriky-24rfqw0h7-henrriky.vercel.app)
 
 # 🎮 Tecnologias e Ferramentas
 
